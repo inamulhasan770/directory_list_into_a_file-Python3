@@ -14,7 +14,7 @@ def saveintofile(arr):
     with open (filenm,'a') as f:
         for i in range(0, arr_len):
             f.write(arr[i]+'\n')
-        
+    print("Successfully written into the file name : ",filenm)        
     
 
 
